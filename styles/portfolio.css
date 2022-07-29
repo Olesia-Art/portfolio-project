@@ -67,6 +67,24 @@ footer {
   line-height: 1.5;
 }
 
+.about-hero {
+  padding: 200px 20px;
+}
+
+.about-hero h2 {
+  line-height: 80px;
+  font-size: 64px;
+}
+
+.about-hero h4 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-content {
+  margin: 20px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   color: white;
@@ -115,9 +133,9 @@ footer {
 }
 
 .photo-olesia {
-  padding: 50px 80px;
   border: 1px solid white;
   border-radius: 25px;
+  max-width: 470px;
 }
 
 @media (max-width: 900px) {
@@ -137,5 +155,10 @@ footer {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
