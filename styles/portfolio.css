@@ -68,7 +68,7 @@ footer {
 }
 
 .about-hero {
-  padding: 200px 20px;
+  padding: 140px 20px;
 }
 
 .about-hero h2 {
@@ -136,6 +136,15 @@ footer {
   border: 1px solid white;
   border-radius: 25px;
   max-width: 470px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
 }
 
 @media (max-width: 900px) {
